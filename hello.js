@@ -1,5 +1,5 @@
 const fs = require('fs');
-const inputs = fs.readFileSync('example.txt').toString().split("\n") // 백준 사이트에 제출 시에는 example.txt 대신 dev/stdin
+const inputs = fs.readFileSync('input.txt').toString().split("\n") // 백준 사이트에 제출 시에는 input.txt 대신 dev/stdin
 
 //정수를 저장하는 스택 구현
 const stack = [];
