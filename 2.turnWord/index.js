@@ -16,9 +16,7 @@ for (let i = 1; i < parseInt(inputs[0]) + 1; i++) {
 console.log(outputList.join('\n'))
 
 
-
-
-// const input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
+// const input = require("fs").readFileSync("input.txt").toString().split("\n");
 //
 // let result = input.slice(1);
 //
