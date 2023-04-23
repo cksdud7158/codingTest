@@ -1,35 +1,35 @@
 // https://www.acmicpc.net/problem/10828
 
 const fs = require('fs');
-const inputs = fs.readFileSync('example.txt').toString().split("\n") // 백준 사이트에 제출 시에는 example.txt 대신 dev/stdin
+const inputs = fs.readFileSync('input.txt').toString().split("\n") // 백준 사이트에 제출 시에는 input.txt 대신 dev/stdin
 
 //정수를 저장하는 스택 구현
-const stack = [];
+const index = [];
 const result = [];
 
 function push(x) {
-    stack.push(x)
+    index.push(x)
 }
 
 function pop() {
-    if (stack.length === 0) {
+    if (index.length === 0) {
         return -1
 
     }
-    return stack.pop()
+    return index.pop()
 }
 
 function size() {
-    return stack.length
+    return index.length
 }
 
 function empty() {
-    return stack.length === 0 ? 1 : 0
+    return index.length === 0 ? 1 : 0
 }
 
 function top() {
-    if (stack.length === 0) return -1
-    return stack[stack.length - 1]
+    if (index.length === 0) return -1
+    return index[index.length - 1]
 }
 
 for (let i = 1; i < parseInt(inputs[0]) + 1; i++) {
