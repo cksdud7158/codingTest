@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1406
+// https://www.acmicpc.net/problem/10845
 
 const fs = require('fs');
 const inputs = fs.readFileSync('input.txt').toString().split("\n") // 백준 사이트에 제출 시에는 input.txt 대신 dev/stdin
