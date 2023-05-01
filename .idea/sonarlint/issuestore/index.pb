@@ -3,18 +3,10 @@ D
 2.turnWord/input.txt,b/9/b9f4668b87d9f9482222c16e0ee757f39717e14f
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-M
-3.parenthesisString/input.txt,d/8/d817a4d3d40359771c92e4c42f4efed4a7775587
-L
-3.parenthesisString/index.js,8/c/8c10f20925e09280bd83145604a48169fcfdb80b
 G
 4.stackSeries/input.txt,e/e/ee2396b0a16a53a112620e3a39d2d9fc662fbe89
 B
 5.editor/input.txt,a/6/a6b51cc66e75568fed05ed10dc5318c7da3ddc2e
-F
-4.stackSeries/index.js,3/4/34ce12435a81baaeb9b8e0a9cfeed56b1bb3626a
-A
-5.editor/index.js,3/c/3c7709815cd0dd2c9ba2a9aa74bc989a1b6d8507
 w
 G.idea/sonarlint/issuestore/d/8/d817a4d3d40359771c92e4c42f4efed4a7775587,3/a/3aecaff66cb7b0093528f66a3ad4b5380e4b7276
 w
@@ -45,11 +37,7 @@ D
 7.Josephus/input.txt,0/c/0cdff1bb07d6e03dd79b4cd9375c4020a223ee70
 @
 8.deck/input.txt,b/1/b1fa329a42cb47a8b84cb824dad4927704e37612
-?
-8.deck/index.js,5/7/57f5c1ab396f95539e1e2098822454ea4ea3f43d
 >
 6.que/index.js,9/4/947f68d338a98b13e736a28645a1f0be293f8a0b
-C
-7.Josephus/index.js,0/5/051cce7d32db46f16e18965f8c02e97bedd41723
 G
 9.reverseWord/input.txt,6/c/6c4c1506d83954c49359bf43165be2288dcee9f5

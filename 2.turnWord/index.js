@@ -1,7 +1,8 @@
 // https://www.acmicpc.net/problem/9093
 
 const fs = require('fs');
-const inputs = fs.readFileSync('input.txt').toString().split("\n") // 백준 사이트에 제출 시에는 input.txt 대신 dev/stdin
+const filePath = process.platform === "linux" ? "/dev/stdin" : "input.txt";
+const inputs = fs.readFileSync(filePath).toString().split("\n") // 백준 사이트에 제출 시에는 input.txt 대신 dev/stdin
 
 const outputList = []
 
