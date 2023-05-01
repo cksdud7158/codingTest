@@ -5,8 +5,6 @@ D
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 M
 3.parenthesisString/input.txt,d/8/d817a4d3d40359771c92e4c42f4efed4a7775587
-C
-2.turnWord/index.js,e/c/ecba43094a8e6faaa736b9bc3263adfeb8c765e9
 L
 3.parenthesisString/index.js,8/c/8c10f20925e09280bd83145604a48169fcfdb80b
 G
@@ -41,3 +39,17 @@ Q.idea/sonarlint/securityhotspotstore/8/c/8c10f20925e09280bd83145604a48169fcfdb8
 Q.idea/sonarlint/securityhotspotstore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a,9/a/9ab775a45cd57b8b48016a1df33230d8b5c74c21
 ?
 6.que/input.txt,0/c/0c3d616ee07f3a02912927a84710afd064a49d53
+>
+codingTest.iml,3/7/372434b16b68ec6315be4537eb85c3499753a1cb
+D
+7.Josephus/input.txt,0/c/0cdff1bb07d6e03dd79b4cd9375c4020a223ee70
+@
+8.deck/input.txt,b/1/b1fa329a42cb47a8b84cb824dad4927704e37612
+?
+8.deck/index.js,5/7/57f5c1ab396f95539e1e2098822454ea4ea3f43d
+>
+6.que/index.js,9/4/947f68d338a98b13e736a28645a1f0be293f8a0b
+C
+7.Josephus/index.js,0/5/051cce7d32db46f16e18965f8c02e97bedd41723
+G
+9.reverseWord/input.txt,6/c/6c4c1506d83954c49359bf43165be2288dcee9f5
