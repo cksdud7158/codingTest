@@ -24,9 +24,6 @@
 //         cnt++
 //
 //     }
-//
-//
-//
 //     console.log("<"+outputList.join(', ')+">")
 // }
 //
@@ -34,11 +31,11 @@
 
 
 function solution(N, K) {
-    var answer = '';
-    var circleArray = Array(N);
-    var head = 0;
+    let answer = '';
+    let circleArray = Array(N);
+    let head = 0;
 
-    for (var i = 0; i < N; i++) {
+    for (let i = 0; i < N; i++) {
         circleArray[i] = i + 1;
     }
 
@@ -53,6 +50,6 @@ function solution(N, K) {
     return '<' + answer + '>';
 }
 
-var input = require('fs').readFileSync('input.txt').toString().split(' ');
+let input = require('fs').readFileSync('input.txt').toString().split(' ');
 
 console.log(solution(parseInt(input[0]), parseInt(input[1])));
