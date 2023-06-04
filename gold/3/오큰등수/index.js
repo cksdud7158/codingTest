@@ -43,7 +43,7 @@ main()
 //
 // let answer = Array(size).fill(-1);
 // let find = Array(1000001).fill(0);
-// let stack = [];
+// let 스택 = [];
 //
 //
 // for(let i =0; i < size; i++){
@@ -51,10 +51,10 @@ main()
 // }
 //
 // for(let i =0; i < size; i++){
-//     while(stack.length && find[num[stack[stack.length-1]]] < find[num[i]]){
-//         answer[stack.pop()] = num[i];
+//     while(스택.length && find[num[스택[스택.length-1]]] < find[num[i]]){
+//         answer[스택.pop()] = num[i];
 //     }
-//     stack.push(i);
+//     스택.push(i);
 // }
 //
 // console.log(answer.join(' '));

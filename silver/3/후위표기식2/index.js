@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/17299
+// https://www.acmicpc.net/problem/1935
 
 const fs = require('fs');
 filePath = process.platform === "linux" ? "/dev/stdin" : "input.txt";
@@ -49,18 +49,18 @@ main()
 // const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n').filter(function(e, i) { return (i === 0 ? false : e); }).reverse();
 // const expr = input.pop();
 // const variable = input.reverse().map(function(e) { return parseInt(e); });
-// const stack = [];
+// const 스택 = [];
 // expr.split('').forEach(function(e) {
 //     switch(e) {
 //         case '+':
 //         case '-':
 //         case '*':
 //         case '/':
-//             const a = stack.pop(), b = stack.pop();
-//             stack.push(eval(b + e + a));
+//             const a = 스택.pop(), b = 스택.pop();
+//             스택.push(eval(b + e + a));
 //             break;
 //         default:
-//             stack.push(parseInt(variable[e.charCodeAt() - 65]));
+//             스택.push(parseInt(variable[e.charCodeAt() - 65]));
 //     }
 // });
-// console.log(stack[0].toFixed(2));
+// console.log(스택[0].toFixed(2));
