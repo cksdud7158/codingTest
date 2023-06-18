@@ -13,13 +13,10 @@ const A = stringA.split(" ").map(value => Number(value))
 let stack = []
 
 function main() {
-
-
     for (let i =0; i< +N; i++){
         while (stack.length && A[stack[stack.length-1]] < A[i]){
             outputList[stack.pop()] = A[i]
         }
-
         stack.push(i)
     }
     console.log(outputList.join(" "))
