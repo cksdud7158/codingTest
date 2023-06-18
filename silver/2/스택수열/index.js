@@ -35,7 +35,7 @@ main()
 // let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 //
 // const N = Number(input[0]);
-// const stack = [];
+// const 스택 = [];
 // let message = "";
 //
 // let counter = 1;
@@ -43,12 +43,12 @@ main()
 //     let n = Number(input[i]);
 //
 //     while (counter <= n) {
-//         stack.push(counter++);
+//         스택.push(counter++);
 //         message += "+\n";
 //     }
-//     if (stack[stack.length - 1] === n) {
+//     if (스택[스택.length - 1] === n) {
 //         message += "-\n";
-//         stack.pop();
+//         스택.pop();
 //     } else {
 //         message = "NO";
 //         break;
