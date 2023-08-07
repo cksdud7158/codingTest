@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/17413
+// https://www.notion.so/ryanwolf/b0434744dac14e10bbb9f6dd8d4da871?pvs=4#14f2884ca7284d108c26e4e8a669e696
 
 const fs = require('fs');
 const filePath = process.platform === "linux" ? "/dev/stdin" : "input.txt";
